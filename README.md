@@ -1,4 +1,5 @@
 # Voronoi-Delaunay
+This project is a visualizer for Voronoi Diagrams and Delaunay Triangulations built using Unity. It was implemented as the final project for my Computational Geometry course at The University of South Florida.//
 
 # Visualizer Demo
 https://user-images.githubusercontent.com/62521050/236524585-c50b83b3-6112-4d5a-9f0e-27b6273532f0.mp4
@@ -12,4 +13,5 @@ If you would like to use this code in your own Unity Project, just copy the *Dia
 Point Prefab: Any Game Object or sprite to represent the input points\
 Line Material V: Line material for Voronoi edges\
 Line Material D: Line material for Delaunay edges\
+
 ![Script_Window](https://user-images.githubusercontent.com/62521050/236544775-74d46b9f-2440-4900-a184-ca80f2116be1.png)
