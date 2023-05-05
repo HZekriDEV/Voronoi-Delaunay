@@ -1,5 +1,9 @@
 # Voronoi-Delaunay
-This project is a visualizer for Voronoi Diagrams and Delaunay Triangulations built using Unity. It was implemented as the final project for my Computational Geometry course at The University of South Florida.//
+This project is a visualizer for Voronoi Diagrams and Delaunay Triangulations built using Unity. It was implemented as the final project for my Computational Geometry course at The University of South Florida./
+
+This implementation uses the Bowyer-Watson Algorithm to generate the Delaunay Triangulation of the input points which can be generated randomly or inputted incrementally. More information about the algorithm can be found here: https://en.wikipedia.org/wiki/Bowyer%E2%80%93Watson_algorithm/
+
+To generate the Voronoi Diagram of the input points, I use the dual relationship between the Delaunay Triangulation and Voronoi Diagram to generate the Voronoi vertices and edges from the previously calculated triangulation. The Voronoi vertices can be found by calculating the circumcenter of each Delaunay triangle. Circumcenters of neighboring triangles represent Voronoi edges.
 
 # Visualizer Demo
 https://user-images.githubusercontent.com/62521050/236524585-c50b83b3-6112-4d5a-9f0e-27b6273532f0.mp4
