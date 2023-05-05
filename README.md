@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/62521050/236524585-c50b83b3-6112-4d5a-
 To install the demo application, download or clone this repository and open the *Voronoi_Delaunay_App* folder. Then run the executable. Your machine may flag the application as unsafe. If so, just ignore the message and run as administrator.
 
 # Unity Instructions
-If you would like to use this code in your own Unity Project, just copy the *Diagram.cs* and *ConvexHull.cs* files into your project. Then add *Diagram.cs* to a Game Object and fill in the prefab references in the script window. Note: the *ConvexHull.cs* is a helper class used to complete the triangulation. It uses the Graham Scan algorithm to do so.
+If you would like to use this code in your own Unity Project, just copy the *Diagram.cs* and *ConvexHull.cs* files into your project. Then add *Diagram.cs* to a Game Object and fill in the prefab references in the script window. Note: *ConvexHull.cs* is a helper class used to complete the triangulation. It uses the Graham Scan algorithm to do so.
 
 Point Prefab: Any Game Object or sprite to represent the input points\
 Line Material V: Line material for Voronoi edges\
